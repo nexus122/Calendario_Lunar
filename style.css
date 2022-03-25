@@ -1,0 +1,20 @@
+body {
+    background-color: #002445;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#luna {            
+    color: white;
+    font-size: 20px;
+    font-family: moon;
+}
+
+@font-face {
+    font-family: "moon";
+    src: url(font/moon_bold.otf) format("opentype");
+}
